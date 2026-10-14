@@ -140,10 +140,9 @@ def test_repository_scenarios_load(name):
 
 
 def test_single_tree_lies_on_planned_route_leg():
-    # Drzewo stoi na środku odcinka K2 -> F7 trasy planowanej dla missions/example.json.
-    mission = json.loads((SCENARIOS.parent / "missions" / "example.json").read_text())
+    mission = json.loads((SCENARIOS.parent / "missions" / "avoidance_test.json").read_text())
     by_id = {p["id"]: GeoPoint(p["lat"], p["lon"])
-             for p in mission["free_points"] + mission["ordered_points"]}
+             for p in mission["free_points"]}
     k2, f7 = to_local(HOME, by_id["K2"]), to_local(HOME, by_id["F7"])
     middle = LocalPoint((k2.north + f7.north) / 2, (k2.east + f7.east) / 2)
     world = load_world(SCENARIOS / "single_tree.json", HOME)

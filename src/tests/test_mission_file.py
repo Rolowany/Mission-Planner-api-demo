@@ -8,7 +8,7 @@ from src.uav_mission.mission_file import (
     DEFAULT_ALTITUDE_M, check_distances, load_mission, parse_mission)
 from src.uav_mission.utils.errors import MissionFileError
 
-EXAMPLE = Path(__file__).parent.parent.parent / "missions" / "example.json"
+EXAMPLE = Path(__file__).parent.parent.parent / "missions" / "blonia.json"
 
 
 def point(pid, lat=50.0611, lon=19.908):

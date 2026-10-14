@@ -19,3 +19,7 @@ W tle należy odpalić Mission Planner. Pracuję na linuxie, więc używałem mo
 ## Proste wyminięcie drzewa
 
 ```python -m src.main missions/avoidance_test.json --scenario scenarios/single_tree.json```
+
+# Testy
+
+Wystarczy wpisać ```pytest``` i powinno działać, chociaż pewnie najlepiej jest testować po prostu obserwując zachowanie programu.
