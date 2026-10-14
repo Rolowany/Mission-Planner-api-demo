@@ -1,0 +1,12 @@
+{
+  "name": "Jedno drzewo na odcinku K2 -> F7",
+  "obstacles": [
+    {
+      "id": "drzewo",
+      "lat": 50.060286,
+      "lon": 19.9097219,
+      "radius_m": 4.0,
+      "height_m": 25.0
+    }
+  ]
+}
