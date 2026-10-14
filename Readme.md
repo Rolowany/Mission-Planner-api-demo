@@ -23,3 +23,7 @@ W tle należy odpalić Mission Planner. Pracuję na linuxie, więc używałem mo
 # Testy
 
 Wystarczy wpisać ```pytest``` i powinno działać, chociaż pewnie najlepiej jest testować po prostu obserwując zachowanie programu.
+
+# Co można dodać?
+
+Początkowo chciałem użyć jakiegoś nowoczesnego solvera do znajdowania trasy (zamierzałem użyć do tego języka MiniZinc), ale na tym etapie uznałem to za nie tak ważne.
